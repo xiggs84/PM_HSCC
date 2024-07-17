@@ -1,0 +1,45 @@
+{
+  "annotations": {
+    "changelogDate": "20240717020913"
+  },
+  "applications": ["gateway", "CanBo"],
+  "clientRootFolder": "CanBo",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "maTinh",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "tenTinh",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "trangThai",
+      "fieldType": "Long"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "microserviceName": "CanBo",
+  "name": "DanhMucTinh",
+  "relationships": [
+    {
+      "otherEntityName": "danhMucHuyen",
+      "otherEntityRelationshipName": "maTinh",
+      "relationshipName": "danhMucHuyen",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "danhMucDonVi",
+      "otherEntityRelationshipName": "idTinh",
+      "relationshipName": "danhMucDonVi",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl",
+  "skipServer": true
+}

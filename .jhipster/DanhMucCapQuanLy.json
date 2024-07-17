@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20240717021713"
+  },
+  "applications": ["gateway", "CanBo"],
+  "clientRootFolder": "CanBo",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "idCapQl",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "dienGiai",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "microserviceName": "CanBo",
+  "name": "DanhMucCapQuanLy",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl",
+  "skipServer": true
+}

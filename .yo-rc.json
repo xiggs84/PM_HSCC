@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 3,
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "baseName": "CanBo",
+    "buildTool": "gradle",
+    "devDatabaseType": "h2Disk",
+    "entities": [
+      "CanBoQuyen",
+      "DanhMucDonVi",
+      "DanhMucLoaiDonVi",
+      "DanhMucTinh",
+      "DanhMucHuyen",
+      "DanhMucXa",
+      "Quyen",
+      "NoiCapGttt",
+      "DanhMucNoiCapQsh",
+      "DmNoiCapGpdkx",
+      "DanhMucDauSoCmnd",
+      "DanhMucCapQuanLy"
+    ],
+    "jhipsterVersion": "8.6.0",
+    "jwtSecretKey": "Y2JkOWUxMDUyZjkyMzIyYzMwYTY3ZjkwYzg0Yjg0MjQ1NGYxNjAxNWQ1NWI5MTdkZGRkZDA1ZjVmNGQ1MzlkN2I4MWNjNWNhYjhjYzY0YzMzMmJhMzVmYWRmMmQwOWNiNTViOTIwYThmNzY0Y2ZlMDdkNzA4Y2FlNjU2NThhMmY=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1721182633000,
+    "nativeLanguage": "en",
+    "packageFolder": "vn/vnpt",
+    "packageName": "vn.vnpt",
+    "prodDatabaseType": "postgresql",
+    "serverPort": "8083",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

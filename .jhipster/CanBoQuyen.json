@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20240717020613"
+  },
+  "applications": ["gateway", "CanBo"],
+  "clientRootFolder": "CanBo",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "idQuyen",
+      "fieldType": "Long"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "microserviceName": "CanBo",
+  "name": "CanBoQuyen",
+  "relationships": [
+    {
+      "otherEntityName": "danhMucDonVi",
+      "relationshipName": "idDonVi",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl",
+  "skipServer": true
+}
